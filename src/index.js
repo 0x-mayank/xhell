@@ -4,6 +4,7 @@ import postCommand from './commands/post.js';
 import whoamiCommand from './commands/whoami.js';
 import undoCommand from './commands/undo.js';
 import { saveDraft, listDrafts } from './commands/draft.js';
+import logoutCommand from './commands/logout.js';
 
 program
   .name('xhell')
@@ -42,5 +43,10 @@ program
   .command('whoami')
   .description('show your X account info')
   .action(whoamiCommand);
+
+program
+  .command('logout')
+  .description('logout and remove stored credentials')
+  .action(logoutCommand);
 
 program.parse(process.argv);

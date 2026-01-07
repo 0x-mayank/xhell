@@ -20,12 +20,9 @@
   "author": "Mayank",
   "license": "ISC",
   "dependencies": {
-    "boxen": "^8.0.1",
     "chalk": "^4.1.2",
     "commander": "^11.0.0",
     "conf": "^15.0.2",
-    "dotenv": "^16.0.3",
-    "gradient-string": "^2.0.2",
     "inquirer": "^8.2.5",
     "ora": "^5.4.1",
     "twitter-api-v2": "^1.15.0"
