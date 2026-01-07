@@ -9,7 +9,7 @@ import logoutCommand from './commands/logout.js';
 program
   .name('xhell')
   .description('a cli for twitter/X')
-  .version('1.0.0');
+  .version('1.1.1');
 
 program
   .command('setup')
